@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>多功能个人工作台</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- 移动端顶部栏 -->
+  <header class="mobile-header">
+    <button class="hamburger" id="hamburger" aria-label="打开菜单">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <div class="mobile-title">多功能个人工作台</div>
+    <div style="width:22px"></div>
+  </header>
+
+  <!-- 遮罩层 -->
+  <div class="overlay" id="overlay"></div>
+
+  <div class="layout">
+    <!-- 左侧导航 -->
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+        </div>
+        <div>
+          <div class="brand-title">个人工作台</div>
+          <div class="brand-sub">多功能极简工具</div>
+        </div>
+      </div>
+
+      <nav class="menu" id="menu"></nav>
+
+      <div class="sidebar-footer">
+        <div class="footer-tip">任务越具体，启动越容易。</div>
+      </div>
+    </aside>
+
+    <!-- 右侧主内容 -->
+    <main class="main" id="main"></main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
