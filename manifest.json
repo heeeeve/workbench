@@ -1,0 +1,19 @@
+{
+  "name": "个人工作台",
+  "short_name": "工作台",
+  "description": "多功能极简个人工作台",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f1ea",
+  "theme_color": "#f5f1ea",
+  "icons": [
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
